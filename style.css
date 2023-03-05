@@ -1,0 +1,18 @@
+.hello__world{
+    text-align: center;
+    padding: 20px;
+    border: 20px solid #4053be;
+    animation: hello 3s infinite ease;
+}
+@keyframes hello{
+    0%{
+        border: 20px solid #4053be;
+    }
+    25%{
+        border: 20px solid #595b69;
+        background-color: #9b4c97;
+    }
+    50%{
+        border: 20px solid #8799ff;
+    }
+}
